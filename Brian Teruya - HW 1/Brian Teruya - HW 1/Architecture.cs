@@ -81,8 +81,10 @@ namespace Brian_Teruya___HW_1
 	   * also comes with 2 types of missiles, white missiles for misses and red for hits
 
     * 3. Board Setup
-        * 2 sides.
+        * 2 sides and 2 grids per side.
         * a grid where pieces can be placed, but not seen by the other player.
+        * (can also be used to track how many hits a player has taken)
+        * and another grid that tracks hits and misses.
         * y axis A-J
         * x axis 1-10
         * pieces can be placed anywhere on the grid (if they fit of course)
@@ -105,6 +107,7 @@ namespace Brian_Teruya___HW_1
             * game start:
                 * Ask the player to enter their coordinates through a letter/number format. If invalid, they
                 * have to try again.If they already hit that spot, they have to try again
+                * these coordinates will be stored in another grid that tracks the hits and misses
                 * if a player hits an empty coordinate, it is a miss, and no damage is done.
                 * however if the player hits a coordinate with an enemy piece, it is a hit
                 * certain pieces have a set amount of health by int. When it reaches 0, the ship is sunken.

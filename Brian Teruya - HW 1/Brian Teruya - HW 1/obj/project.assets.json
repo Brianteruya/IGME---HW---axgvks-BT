@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Profiles\\bnt7728\\source\\repos\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
+      "projectUniqueName": "D:\\Profiles\\bnt7728\\source\\repos\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
       "projectName": "Brian Teruya - HW 1",
-      "projectPath": "D:\\Profiles\\bnt7728\\source\\repos\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
+      "projectPath": "D:\\Profiles\\bnt7728\\source\\repos\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
       "packagesPath": "D:\\Profiles\\bnt7728\\.nuget\\packages\\",
-      "outputPath": "D:\\Profiles\\bnt7728\\source\\repos\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\obj\\",
+      "outputPath": "D:\\Profiles\\bnt7728\\source\\repos\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

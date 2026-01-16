@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Profiles\\bnt7728\\source\\repos\\Brian Teruya - HW 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9763CCFE-1212-4524-BC73-ED3116ECDA9F}|Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj|d:\\profiles\\bnt7728\\source\\repos\\brian teruya - hw 1\\brian teruya - hw 1\\architecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9763CCFE-1212-4524-BC73-ED3116ECDA9F}|Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj|solutionrelative:brian teruya - hw 1\\architecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9763CCFE-1212-4524-BC73-ED3116ECDA9F}|Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj|d:\\profiles\\bnt7728\\source\\repos\\brian teruya - hw 1\\brian teruya - hw 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9763CCFE-1212-4524-BC73-ED3116ECDA9F}|Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj|solutionrelative:brian teruya - hw 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Architecture.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Architecture.cs",
+              "RelativeDocumentMoniker": "Brian Teruya - HW 1\\Architecture.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Architecture.cs",
+              "RelativeToolTip": "Brian Teruya - HW 1\\Architecture.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwHIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T13:27:57.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Program.cs",
               "RelativeDocumentMoniker": "Brian Teruya - HW 1\\Program.cs",
               "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Program.cs",
               "RelativeToolTip": "Brian Teruya - HW 1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T13:27:23.432Z",
               "EditorCaption": ""

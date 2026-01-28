@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D1F-C39C-468B-A2CA-81AC873364E3}|Class examples\\Class examples.csproj|d:\\profiles\\bnt7728\\source\\repos\\class examples\\class examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D1F-C39C-468B-A2CA-81AC873364E3}|Class examples\\Class examples.csproj|solutionrelative:class examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D1F-C39C-468B-A2CA-81AC873364E3}|Class examples\\Class examples.csproj|d:\\profiles\\bnt7728\\source\\repos\\class examples\\class examples\\pikachu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D1F-C39C-468B-A2CA-81AC873364E3}|Class examples\\Class examples.csproj|solutionrelative:class examples\\pikachu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D1F-C39C-468B-A2CA-81AC873364E3}|Class examples\\Class examples.csproj|d:\\profiles\\bnt7728\\source\\repos\\class examples\\class examples\\charizzard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D1F-C39C-468B-A2CA-81AC873364E3}|Class examples\\Class examples.csproj|solutionrelative:class examples\\charizzard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D1F-C39C-468B-A2CA-81AC873364E3}|Class examples\\Class examples.csproj|d:\\profiles\\bnt7728\\source\\repos\\class examples\\class examples\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D1F-C39C-468B-A2CA-81AC873364E3}|Class examples\\Class examples.csproj|solutionrelative:class examples\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\Class examples\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Class examples\\Pokemon.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\Class examples\\Pokemon.cs",
+              "RelativeToolTip": "Class examples\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:12:39.321Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pikachu.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\Class examples\\pikachu.cs",
+              "RelativeDocumentMoniker": "Class examples\\pikachu.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\Class examples\\pikachu.cs",
+              "RelativeToolTip": "Class examples\\pikachu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:22:54.777Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChaRIZZard.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\Class examples\\ChaRIZZard.cs",
+              "RelativeDocumentMoniker": "Class examples\\ChaRIZZard.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\Class examples\\ChaRIZZard.cs",
+              "RelativeToolTip": "Class examples\\ChaRIZZard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:32:03.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\Class examples\\Program.cs",
+              "RelativeDocumentMoniker": "Class examples\\Program.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\Class examples\\Class examples\\Program.cs*",
+              "RelativeToolTip": "Class examples\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:11:57.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

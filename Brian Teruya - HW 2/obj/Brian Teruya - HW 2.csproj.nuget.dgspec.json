@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj": {}
+    "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\cooked-gang\\Brian Teruya - HW 2\\Brian Teruya - HW 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj": {
+    "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\cooked-gang\\Brian Teruya - HW 2\\Brian Teruya - HW 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
-        "projectName": "Brian Teruya - HW 1",
-        "projectPath": "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
+        "projectUniqueName": "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\cooked-gang\\Brian Teruya - HW 2\\Brian Teruya - HW 2.csproj",
+        "projectName": "Brian Teruya - HW 2",
+        "projectPath": "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\cooked-gang\\Brian Teruya - HW 2\\Brian Teruya - HW 2.csproj",
         "packagesPath": "C:\\Users\\gladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\obj\\",
-=======
-    "D:\\Profiles\\bnt7728\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj": {}
-  },
-  "projects": {
-    "D:\\Profiles\\bnt7728\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Profiles\\bnt7728\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
-        "projectName": "Brian Teruya - HW 1",
-        "projectPath": "D:\\Profiles\\bnt7728\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
-        "packagesPath": "D:\\Profiles\\bnt7728\\.nuget\\packages\\",
-        "outputPath": "D:\\Profiles\\bnt7728\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\obj\\",
->>>>>>> 5b709f1eed775edccd8373d410480fb30f4e247e
+        "outputPath": "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\cooked-gang\\Brian Teruya - HW 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

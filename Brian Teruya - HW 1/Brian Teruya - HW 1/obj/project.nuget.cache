@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "pGXAGWxicso=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gladi\\OneDrive\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
+=======
   "dgSpecHash": "DciWxITMZn4=",
   "success": true,
   "projectFilePath": "D:\\Profiles\\bnt7728\\Documents\\GitHub\\IGME---HW---axgvks-BT\\Brian Teruya - HW 1\\Brian Teruya - HW 1\\Brian Teruya - HW 1.csproj",
+>>>>>>> 5b709f1eed775edccd8373d410480fb30f4e247e
   "expectedPackageFiles": [],
   "logs": []
 }

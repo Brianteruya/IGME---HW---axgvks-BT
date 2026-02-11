@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Brian Teruya - HW 1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca66f133ed41740b3c9a157558b4bac3da062f78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9473568a6e5476effaa66b35a1020015ce71e178")]
 [assembly: System.Reflection.AssemblyProductAttribute("Brian Teruya - HW 1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Brian Teruya - HW 1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

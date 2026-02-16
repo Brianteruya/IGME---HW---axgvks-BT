@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|d:\\profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\propertyspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|solutionrelative:monopoly framework\\propertyspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|d:\\profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\spaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|solutionrelative:monopoly framework\\spaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|d:\\profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|solutionrelative:monopoly framework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|d:\\profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|solutionrelative:monopoly framework\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|d:\\profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2478F974-7CF6-4794-93E1-A19C553F943D}|monopoly framework\\monopoly framework.csproj|solutionrelative:monopoly framework\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertySpace.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\PropertySpace.cs",
+              "RelativeDocumentMoniker": "monopoly framework\\PropertySpace.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\PropertySpace.cs",
+              "RelativeToolTip": "monopoly framework\\PropertySpace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T13:33:41.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "spaces.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\spaces.cs",
+              "RelativeDocumentMoniker": "monopoly framework\\spaces.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\spaces.cs",
+              "RelativeToolTip": "monopoly framework\\spaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T13:05:17.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\Board.cs",
+              "RelativeDocumentMoniker": "monopoly framework\\Board.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\Board.cs",
+              "RelativeToolTip": "monopoly framework\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T13:02:59.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cards.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\Cards.cs",
+              "RelativeDocumentMoniker": "monopoly framework\\Cards.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\Cards.cs",
+              "RelativeToolTip": "monopoly framework\\Cards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T13:02:37.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\Program.cs",
+              "RelativeDocumentMoniker": "monopoly framework\\Program.cs",
+              "ToolTip": "D:\\Profiles\\bnt7728\\source\\repos\\monopoly framework\\monopoly framework\\Program.cs",
+              "RelativeToolTip": "monopoly framework\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T13:02:11.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace monopoly_framework
 {
-    internal class Board
+    internal class Chance:Cards
     {
+        //method to randomly choose card (make random number gen for this)
     }
 }

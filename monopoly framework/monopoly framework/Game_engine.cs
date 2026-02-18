@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace monopoly_framework
 {
-    internal class Board
+    internal class Game_engine
     {
     }
 }

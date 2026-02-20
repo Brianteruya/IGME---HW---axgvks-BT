@@ -36,16 +36,7 @@ namespace monopoly_framework
             return 1;
         }
 
-        //error message for the catch method if it doesnt work
-        internal static string errorMsg (string msg)
-        {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.BackgroundColor = ConsoleColor.Red;
-            Console.WriteLine(msg);
-            Console.ResetColor();
-
-            return null;
-        }
+      
         //list of players
         internal static List<object> player = new List<object>()
         {
@@ -138,6 +129,24 @@ namespace monopoly_framework
 
         //specific colored message printer
 
+        //error message for the catch method if it doesnt work
+        /*  internal static string errorMsg (string msg)
+          {
+              Console.ForegroundColor = ConsoleColor.White;
+              Console.BackgroundColor = ConsoleColor.Red;
+              Console.WriteLine(msg);
+              Console.ResetColor();
+
+              return null;
+          }*/
+        //general message for anything system related
+        internal static void systemmessage_printer (string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.WriteLine(message);
+            Console.ResetColor();
+        }
 
     }
 }

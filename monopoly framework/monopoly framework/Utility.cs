@@ -8,20 +8,10 @@ namespace monopoly_framework
 {
     internal static class Utility
     {
+
+
+
         
-        
-        // check user response
-
-
-        //check user response string format
-
-        internal static bool UserStringExists(string info)
-        {
-            bool answer = false;
-            //if statement is null or empty
-
-            return answer;
-        }
 
         //format User Data
         internal static string UserDataFormat(string playerinfo,char stringamount)
@@ -57,9 +47,28 @@ namespace monopoly_framework
             return null;
         }
         //list of players
+        internal static List<object> player = new List<object>()
+        {
+
+        };
 
         //List of pieces
+        internal static List<string> unused_Pieces = new List<string>()
+        {
+            "a pirate hat",
+            "an eye patch",
+            "the steering wheel",
+            "the plank",
+            "Jeffrey the parrot",
+            "a treasure chest",
+            "a cannon",
+            "legally distinct jack sparrow with a bottle of a non alcoholic substance"
+        };
 
+        internal static List<string> used_Pieces = new List<string>()
+        {
+
+        };
 
 
         //Method to create 1 player
@@ -73,8 +82,8 @@ namespace monopoly_framework
 
 
         //method to select a player piece (2 lists: 1 for used and other for unused?)
-    
-    
+
+
         //method to show Title + rules
 
 
@@ -84,5 +93,51 @@ namespace monopoly_framework
         //set pieces on start
 
         //card shuffle
+
+        //Clearing the screen
+
+        //changing text colors based on player
+
+        //changing text background color based on player
+
+        //Validation methods:
+        //check user response string format
+
+        internal static bool UserStringExists(string info)
+        {
+            bool answer = false;
+            //if statement is null or empty
+            if (string.IsNullOrEmpty(info))
+            {
+                answer = false;
+            }
+            else
+            {
+                answer = true;
+            }
+
+            return answer;
+        }
+
+        //check user response int format
+
+        internal static bool UserIntExists(string info)
+        {
+            bool answer = false;
+            if (int.TryParse(info, out int value))
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+            return answer;
+        }
+
+        //specific colored message printer
+
+
     }
 }

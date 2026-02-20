@@ -15,7 +15,7 @@ namespace monopoly_framework
         protected int Price; //cost
 
 
-
+        
         spaces(string spacename, int purchasePrice)
         {
             this.SpaceName = spacename;

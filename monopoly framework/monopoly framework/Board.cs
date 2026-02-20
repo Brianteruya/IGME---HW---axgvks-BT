@@ -8,5 +8,7 @@ namespace monopoly_framework
 {
     internal class Board
     {
+
+
     }
 }

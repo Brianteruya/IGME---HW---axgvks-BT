@@ -28,6 +28,9 @@ namespace monopoly_framework
             Purchase = purchase;
 
         }
+
+        internal abstract SpaceTypeAction();
+
         protected bool Purchased
         {
             get { return Purchased; }//the getter (cannot be changed

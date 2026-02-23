@@ -15,12 +15,26 @@ namespace monopoly_framework
             //code here
         }
 
+        internal void SpaceInfo(string name)
+        {
+           
+        }
+        internal void SpaceInfo(string name,string age)
+        {
+            Console.WriteLine($"Hi {name}");
+        }
+
         internal override void SpaceInfo()
         {
             base.SpaceInfo(); //so this method can use the other base method. however we are able to make our own code from it as well
 
             //this method is better than  the parent's!!! believe it!!!
 
+        }
+
+        internal void SpacetypeAction()
+        {
+            Console.WriteLine("this is a utility");
         }
 
     }

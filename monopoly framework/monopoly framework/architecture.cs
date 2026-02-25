@@ -15,15 +15,141 @@ namespace HW_3_REDUX
 * last modified: 2/23/2026
 * last modification: HW 3 architecture retry
 */
-       
+
         //==============================
         //HW 3 RETRY (Arch. for entire game structure)
         //==============================
         /*
          * Classes needed (properties and variables needed)
          * 
-         * 
-         * 
+         * SETUP
+         * - welcome
+         *      - state in console: 
+         *      - "WELCOME TO PIRATE MONOPOLY"
+         *      
+         * - rules
+         *      - state in console:
+         *      "The boards are set, and the pirates are ready!!! heed this message and plunder them all!!!
+         *      \nRULES-----------------
+         *      \n1.THE BOARD SHALL BE SET UP!!!!
+         *      \n1.each player starts at the "GO!", positioned at the beginning of the board
+         *      \n2.each player must roll 2 die to determine player order from greatest to least
+         *      \n3.if a player lands on owned property, they shall be charged with rent.
+         *      \n4.if a player lands on the "walk the plank" space, without a "get off of the plank free" card, THEY SHALL WALK THE PLANK (place your piece to the plank space)
+         *      \n5.if a player on the plank rolls a double or pays the 50 treasure buck fine, he shall be freed.
+         *      \n6.if a player lands on a chance/community chest space, they MUST take a card of the following and do WHATEVER SHALL BE WRITTEN UPON IT!!! NO REFUSALS!!!
+         *      \n7.if a player lands on unowned property, they shall have the choice to buy the property.
+         *      \n8.if a player lands on his own property, rent SHALL BE DOUBLE
+         *      \n9.if a player lands on the GO! position after a full lap around the board, He shall collect 200 treasure bucks
+         *      \n10.if a player SHALL REFUSE PAYING RENT OR ANY OF THE ABOVE, HE IS TO BE PUT IN A DUEL WITH THE BANKER, where they shall roll dice.
+         *      \n11.if the banker wins in this dice roll, THE SCALLYWAG MUST PAY UP DOUBLE OR WALK THE PLANK
+         *      \n12.if the player wins in this dice roll, He shall get another roll
+         *      \n13. if a player shall go bankrupt, the scallywag immediately loses.
+         *      "
+         *      
+         *      
+         * - players
+         *      - Create Players
+         *          (instantiate within main)
+         *              - piece to use
+         *                      - state in console asking the player for their choice of piece.
+         *                      - list out every piece, and request a number as a choice.
+         *                      - check to see if the answer is valid using a method. if not ask again.
+         *                      
+         *              - money balance/add/subtract/Lose
+         *                      - make the money variable internal (anything but private or public)
+         *                      -adjacent to the rules. make it make sense.
+         *              - properties
+         * - Board and spaces
+         *      - spaces
+         *              - Description/bio
+         *              - Group
+         *              - Cost
+         *              - Space Type (Prop, Util)
+         *              - Color
+         *              - Owned?
+         *      - pieces moved on board
+         *      - Idetify space landed on
+         *      - Actions to take
+         * - banker/money
+         *      - (position handled by game automatically) 
+         *      - Holds unclaimed properties
+         *      - gives money
+         *      - makes change
+         * - Cards
+         *      - Get Random Card
+         *          - find some way to randomize the list of cards
+         *      - Card info
+         *          - 
+         *      - Community Chest
+         *              - set up a list of community chest cards
+         *      - Chance
+         *              - set up a list of chance cards
+         * - 1 player turn
+         *      - identify 1st player
+         *      - player turn
+         *              - Roll dice
+         *                      - doubles get another durn
+         *                      - 3rd double: go to jail
+         *              - get value from dice
+         *              - move piece
+         *              - what did we land on
+         *                      - is it owned?
+         *                              - buy or not buy
+         *                              - pay rend
+         *                      - Taxes
+         *                              - pay up
+         *                              - how much?
+         *                              - can the player pay?   
+         *                                      - yes = deduct
+         *                                      - no = lose
+         *                      - OTHER Properties
+         *                              - will it take us to jail?
+         *                              - must we pick up a card
+         *                                      - community
+         *                                              - draw card
+         *                                              - look and apply that card
+         *                                                      - Add $
+         *                                                      - Take money
+         *                                                          - can pay
+         *                                      - chance
+         *                                              - draw card
+         *                                              - look and apply that card
+         *                                                      - Add $
+         *                                                          - either make a new variable to add money or use an operation
+         *                                                          - 
+         *                                                      - Take money
+         *                                                          - can pay
+         *                                                              - a method that checks if the player has enough.\
+         *                                                              - if not they MUST sell something
+         *                                                              - if (player#.money < amounttopay)
+         *                                                              - { (ask the player to sell something of equal or more value)
+         *                                                              -    (check the property values. if there isn't anything of worth to sell, bankrupt IMMEDIATELY}
+         *                                                              
+         *                                                              - else
+         *                                                              - { player#.money = player#.money - amount to pay}
+         *                                                              
+         *                      - Go to jail method
+         *                          - (call the method from the object in main, where 
+         *                          - if (outjailfree == false)
+         *                          -   {
+         *                          -       protected in_jail = true;
+         *                          -       if dice1value == dice2value
+         *                          -       {
+         *                          -           in_jail = false;
+         *                          -       } 
+         *                          -   }
+         *                          - else
+         *                          -       protected in_jail = false
+         * - end of turn
+         *      - do they get another turn?
+         *      - any players left? are they bankrupt? 
+         *              - method to check status of player
+         *                  - if (money = 0 && properties owned = 0)
+         *                  -   {   
+         *                  -       bankrupt = true;
+         *                  -   }
+         *                      
          */
 
         //==============================
@@ -105,8 +231,8 @@ namespace HW_3_REDUX
               "pay the bank 15 treasure bucks", //11
               "you lost the worst bet and now have to clean the poop deck! pay each landlubber (player) 50 trasure bucks", //12
               "ye have ta help yer people!!! pay 20 treasure bucks for each crewmember", //13
-              "I DONT CARE MATEY JUST GO TO JAIL!", //14
-              "I care matey! get out of jail free when needed!", //15
+              "I DONT CARE MATEY JUST WALK THE PLANK!", //14
+              "I care matey! get off of the plank free when needed!", //15
               "Ships aren't free! pay 40 treasure bucks for each pirate ship you own." //16
           };//16 total cards
           protected List<string> Communitychestcards = new List<string>()
@@ -125,8 +251,8 @@ namespace HW_3_REDUX
               "how did ye lose yer treasure scallywag?!? lose 100 treasure bucks", //12
               "ye have a gambling loss! lose 150 treasure bucks", //13
               "crewmates aren't free! pay 20 treasure bucks per crewmember on your territories", //14
-              "I DONT CARE MATEY JUST GO TO JAIL!", //15
-              "I care matey! get out of jail free when needed!" //16
+              "I DONT CARE MATEY JUST WALK THE PLANK!", //15
+              "I care matey! get off of the plank free when needed!" //16
 
           };//16 total cards
 

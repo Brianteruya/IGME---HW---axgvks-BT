@@ -50,7 +50,7 @@ namespace HW_3_REDUX
          *      
          * - players
          *      - Create Players
-         *          (instantiate within main)
+         *          (instantiate within main after data inputs from console)
          *              - piece to use
          *                      - state in console asking the player for their choice of piece.
          *                      - list out every piece, and request a number as a choice.
@@ -58,66 +58,114 @@ namespace HW_3_REDUX
          *                      
          *              - money balance/add/subtract/Lose
          *                      - make the money variable internal (anything but private or public)
-         *                      -adjacent to the rules. make it make sense.
+         *                      -adjacent to the rules and instruction of game aspects. make it make sense.
          *              - properties
+         *                      - when a player buys a property, add it to their list of properties using a method within the player class
+         *                      - a string variable carrying the name of the property
+         *                      - a boolean variable to toggle the ownage of that property, especially if they sell it later on.
          * - Board and spaces
          *      - spaces
          *              - Description/bio
-         *              - Group
+         *                      - string variable with the name and nformation about the space
+         *              - Group/type
+         *                      - string variable with the group of the property (color group, utility, railroad, etc)
          *              - Cost
-         *              - Space Type (Prop, Util)
+         *                      - integer variable with the cost of the property
          *              - Color
+         *                      - console color change?
          *              - Owned?
+         *                      - boolean variable to determine if the property is owned or not
          *      - pieces moved on board
+         *              - spaces are numbered 1-40 (or 0-39) in a list. the player position is determined by the number of spaces they have moved from the start.
+         *              - the dice roller value will determine how many spaces they move, and the position will be determined by the value of the dice roller + current position.
          *      - Idetify space landed on
+         *              - when the player moves, the game will identify the space they have landed on using the position variable and the list of spaces.
          *      - Actions to take
+         *              - if the space is owned, pay rent
          * - banker/money
-         *      - (position handled by game automatically) 
+         *      - (position handled by game automatically)
+         *              - when a player passes go, they get 200 treasure bucks
          *      - Holds unclaimed properties
+         *              - when a player lands on an unowned property, the game will ask if they want to buy it. 
+         *              - if they do, the property is removed from the banker's list of unclaimed properties and added to the player's list of properties.
          *      - gives money
+         *              - when a player passes go, they get 200 treasure bucks
+         *              - math or variable in method to add this money.
          *      - makes change
+         *              - you have leftover debt?
+         *              - if you owe money, you must pay it. if you can't pay it, you must sell properties. if you can't sell properties, you are bankrupt and lose.
+         *              -use properties that equal or are greater than amount owed. if there is nothing to sell, bankrupt immediately.
          * - Cards
          *      - Get Random Card
          *          - find some way to randomize the list of cards
          *      - Card info
-         *          - 
+         *          - string based on the card drawn
          *      - Community Chest
          *              - set up a list of community chest cards
+         *              - needs to use that card randomizer
          *      - Chance
          *              - set up a list of chance cards
+         *              - needs to use that card randomizer
          * - 1 player turn
          *      - identify 1st player
+         *              - each player rolls 2 die to determine player order from greatest to least. 
+         *              the player with the highest roll goes first, and then it goes in descending order from there. 
+         *              if there is a tie, those players will roll again until the tie is broken.
          *      - player turn
          *              - Roll dice
-         *                      - doubles get another durn
+         *                      - 2 number gens from 1-6.
+         *                      - total added together to determine how many spaces to move.
+         *                      - doubles get another turn
          *                      - 3rd double: go to jail
          *              - get value from dice
          *              - move piece
          *              - what did we land on
          *                      - is it owned?
          *                              - buy or not buy
-         *                              - pay rend
+         *                                      - prompt within console
+         *                                      - ask if the player wants to buy the property.
+         *                                      - if so, use a method to add the property to the player's list of properties, and remove it from the banker's list of unclaimed properties. 
+         *                                      - also another method to deduct the cost from the player's money.
+         *                              - pay rent
+         *                                      - prompt within console
+         *                                      - use a method to subtract the rent from the player's money, and add it to the owner's money.
+         *                                      - if not enough check to see if there areany properties they can sell.
          *                      - Taxes
          *                              - pay up
+         *                                      - prompt within console
+         *                                      - use a method to find out if player has enough to pay
          *                              - how much?
+         *                                      - prompt within console
+         *                                      - use variable or math to subtract amount from player money.
          *                              - can the player pay?   
          *                                      - yes = deduct
-         *                                      - no = lose
+         *                                      - no (even unable to sell property) = lose
+         *                                              - lose method use a boolean.
          *                      - OTHER Properties
          *                              - will it take us to jail?
+         *                                      -boolean variable to determine if the player is in jail or not. method to handle going to jail and getting out of jail.
          *                              - must we pick up a card
          *                                      - community
          *                                              - draw card
+         *                                                  -remove from undrawn cards list and add to drawn cards list method
+         *                                                  -if all cards drawn, reset and reshuffle methods
          *                                              - look and apply that card
+         *                                                  -prompt within console with the card information
          *                                                      - Add $
+         *                                                              - add money to player method
          *                                                      - Take money
+         *                                                              - subtract money from player method
          *                                                          - can pay
+         *                                                              - if not enough money, check to see if they can sell properties. if not, bankrupt immediately.
          *                                      - chance
-         *                                              - draw card
+         *                                              draw card
+         *                                                  -remove from undrawn cards list and add to drawn cards list method
+         *                                                  -if all cards drawn, reset and reshuffle methods
          *                                              - look and apply that card
+         *                                                  -prompt within console with the card information
          *                                                      - Add $
          *                                                          - either make a new variable to add money or use an operation
-         *                                                          - 
+         *                                                          - in any case it MUST be a method that adds money to the player
          *                                                      - Take money
          *                                                          - can pay
          *                                                              - a method that checks if the player has enough.\
@@ -125,12 +173,11 @@ namespace HW_3_REDUX
          *                                                              - if (player#.money < amounttopay)
          *                                                              - { (ask the player to sell something of equal or more value)
          *                                                              -    (check the property values. if there isn't anything of worth to sell, bankrupt IMMEDIATELY}
-         *                                                              
          *                                                              - else
          *                                                              - { player#.money = player#.money - amount to pay}
          *                                                              
          *                      - Go to jail method
-         *                          - (call the method from the object in main, where 
+         *                          - (call the method from the object in main whenever the player lands on the go to jail space, recieves a jail card, or rolls 3 doubles)
          *                          - if (outjailfree == false)
          *                          -   {
          *                          -       protected in_jail = true;

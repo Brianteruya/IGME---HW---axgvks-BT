@@ -44,7 +44,8 @@ namespace HW_3_REDUX
          *      \n10.if a player SHALL REFUSE PAYING RENT OR ANY OF THE ABOVE, HE IS TO BE PUT IN A DUEL WITH THE BANKER, where they shall roll dice.
          *      \n11.if the banker wins in this dice roll, THE SCALLYWAG MUST PAY UP DOUBLE OR WALK THE PLANK
          *      \n12.if the player wins in this dice roll, He shall get another roll
-         *      \n13. if a player shall go bankrupt, the scallywag immediately loses.
+         *      \n13.if a player shall go bankrupt, the scallywag immediately loses.
+         *      \n14.if a player lands on free parking THE SCALLYWAG SHALL REMAIN UNTOUCHED!!!
          *      "
          *      
          *      
@@ -64,9 +65,9 @@ namespace HW_3_REDUX
          *                      - a string variable carrying the name of the property
          *                      - a boolean variable to toggle the ownage of that property, especially if they sell it later on.
          * - Board and spaces
-         *      - spaces
+         *      - spaces (state all within console whenever necessary, like when someone 
          *              - Description/bio
-         *                      - string variable with the name and nformation about the space
+         *                      - string variable with the name and who owns it (if owned).
          *              - Group/type
          *                      - string variable with the group of the property (color group, utility, railroad, etc)
          *              - Cost
@@ -120,6 +121,9 @@ namespace HW_3_REDUX
          *              - get value from dice
          *              - move piece
          *              - what did we land on
+         *                      - is it free parking?
+         *                              -do nothing!!!!
+         *                              -but do explicitly state it in the console
          *                      - is it owned?
          *                              - buy or not buy
          *                                      - prompt within console
